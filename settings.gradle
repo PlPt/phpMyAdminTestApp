@@ -1,0 +1,4 @@
+include ':app'
+include ':MaterialAdapter'
+project(':MaterialAdapter').projectDir = new File(getRootDir(), '../MaterialAdapter')
+
